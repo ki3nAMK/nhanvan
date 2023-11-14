@@ -7,9 +7,9 @@
     align-items: center;
 }
 .filter>.wrapper{
-    width: 80%;
+    width: 84.4%;
     display: flex ;
-    justify-content: space-around ;
+    justify-content: space-between ;
     align-items: center;
 }
 .filter>.wrapper>.main-filter{
