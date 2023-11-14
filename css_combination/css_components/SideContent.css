@@ -1,0 +1,348 @@
+.SideContent{
+    margin-top: 30px ;
+    width: 84.4% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+}
+.SideContent>.leftSide{
+    width: 25%;
+}
+.SideContent>.rightSide{
+    width: 75%;
+}
+.SideContent>.rightSide>.comment{
+    width: 100%;
+}
+.SideContent>.rightSide>.comment{
+    width: 100% ;
+}
+.SideContent>.rightSide>.comment>.listComment{
+    margin-top: 50px;
+}
+.SideContent>.rightSide>.comment>.listComment>div{
+    margin-top: 30px;
+    display: flex;
+}
+.SideContent>.rightSide>.comment>.listComment>div.clone>img{
+    width: 62px ;
+    height: 62px;
+}
+.SideContent>.rightSide>.comment>.listComment>div.clone>div{
+    margin-left: 10px ;
+}
+.SideContent>.rightSide>.comment>.listComment>div.clone>div>h6{
+    color: rgba(49,112,182,255);
+}
+.SideContent>.rightSide>.comment>.listComment>div.clone>div>h6,p{
+    margin: 0 ;
+}
+.SideContent>.rightSide>.comment>.listComment>div.clone>div>.btn-list>span{
+    padding:0 ;
+    margin: 0 ;
+    padding-right: 10px;
+    font-size: 13px;
+}
+.SideContent>.rightSide>.comment>.listComment>button{
+    margin-top: 30px ;
+    width: 100% ;
+    height: 40px;
+    background-color: rgba(49,112,182,255);
+    color: white ;
+    border: 0 ;
+}
+.SideContent>.rightSide>.comment>.listComment>.me{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.SideContent>.rightSide>.comment>.listComment>.sub-clone{
+    width: 80%;
+    margin-left: 10%;
+}
+.SideContent>.rightSide>.comment>.listComment>.me>input{
+    width: calc(100% - 70px);
+    height: 60px ;
+    padding-left: 20px;
+}
+.SideContent>.rightSide>.comment>.header{
+    width: 90% ;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-left: 5%;
+}
+.SideContent>.rightSide>.comment>hr,.listComment{
+    width: 90%;
+    margin-left: 5%;
+}
+.SideContent>.rightSide>.productDetail {
+    margin-top:30px ;
+    width: 100% ;
+    z-index: 0;
+}
+.SideContent>.rightSide>.productDetail>.content {
+    width: 95%;
+    border: 1px solid black ;
+    margin-left: 2.5%;
+    padding-bottom: 20px ;
+}
+.SideContent>.rightSide>.productDetail>.content>table {
+    width: 90%;
+    margin-left: 5%;
+}
+.SideContent>.rightSide>.productDetail>.content>.details {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px ;
+}
+.SideContent>.rightSide>.productDetail>.content>.header {
+    width: 100% ;
+    text-align: start ;
+    margin: 0 0 20px 0 ;
+    font-size: 20px ;
+    font-weight: 700;
+}
+.SideContent>.rightSide>.productDetail>.header {
+    width: fit-content;
+    font-size: 30px;
+    margin: 0 ;
+    font-weight: bold;
+    margin-bottom: 10px ;
+    padding: 10px ; 
+    position: relative;
+    top: 40px ;
+    left: 30px ; 
+    z-index: 10;
+    background-color: rgba(243,243,243,255);
+}
+.SideContent>.rightSide>.carousel{
+    margin-top: 20px ;
+    width: 100%;
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: flex-start ;
+    flex-direction: column;
+}
+.SideContent>.rightSide>.carousel>.header{
+    width: 100%;
+    font-size: 30px;
+    margin: 0 ;
+    font-weight: bold;
+    margin-bottom: 10px ;
+}
+.SideContent>.rightSide>.carousel>.container{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+.SideContent>.rightSide>.carousel>.container::-webkit-scrollbar{
+    display: none ;
+}
+.SideContent>.rightSide>.carousel>.container>.items{
+    width: 200px;
+    margin-left: 20px ;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    cursor: pointer;
+    background-color: white ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-self: center;
+    align-items: center;
+}
+.SideContent>.rightSide>.carousel>.container>.items>.detail,.price{
+    width: 80%;
+}
+.SideContent>.rightSide>.carousel>.container>.items>.detail{
+    font-size: 14px;
+}
+.SideContent>.rightSide>.carousel>.container>.items>.price{
+    font-weight: 900;
+    color: orange ;
+}
+.SideContent>.rightSide>.carousel>.container>.items>img{
+    width: 200px ;
+    height: auto;
+}
+.SideContent>.rightSide>.selectImage{
+    width: 40%;
+    display: flex ;
+    justify-self: flex-start;
+    align-items: flex-start;
+}
+.SideContent>.rightSide>.selectImage>img{
+    width: 30%;
+    height: auto ;
+}
+.SideContent>.rightSide>.contentTotal{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: flex-start ;
+}
+.SideContent>.rightSide>.contentTotal>.imgContainer{
+    width: 40%;
+    position: relative;
+}
+.SideContent>.rightSide>.contentTotal>.imgContainer>.discount{
+    position: absolute;
+    left: 15px ;
+    top: 15px ; 
+    background-color: rgba(236,100,42,255) ;
+    color: white; 
+    padding: 5px 10px 5px 10px ;
+    border-radius: 5px ;
+}
+.SideContent>.rightSide>.contentTotal>.imgContainer>img{
+    width: 100%;
+}
+.SideContent>.rightSide>.contentTotal>.content{
+    width: 56%; 
+    margin-left: 20px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.recommend{
+    display: flex;
+    flex-wrap: wrap;
+}
+.SideContent>.rightSide>.contentTotal>.content>.recommend>span{
+    color: rgba(49,112,182,255);
+    margin: 0 ; 
+    padding: 0 ;
+    margin-left: 10px ;
+    font-size: 12px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.recommend>span::after{
+    content: "";
+    height: 100% ;
+    border: 1px solid rgba(49,112,182,255);
+    margin-left: 10px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.listSale{
+    width: 100% ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.listSale>img{
+    width: 100%;
+    margin-top: 10px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.listSale>div{
+    font-weight: 900;
+    font-size: 20px;
+}
+.SideContent>.rightSide>.contentTotal>.content>hr{
+    margin-top: 30px;
+    margin-bottom: 20px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.count{
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 30px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.buttonWrapper{
+    margin-top: 20px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.buttonWrapper>span{
+    padding: 10px ;     
+}
+.SideContent>.rightSide>.contentTotal>.content>.buttonWrapper>span:nth-child(1){
+    color: orange ;
+    border: 1px solid orange;
+}
+.SideContent>.rightSide>.contentTotal>.content>.buttonWrapper>span:nth-child(2){
+    color: white ; 
+    background-color: orange;
+}
+.SideContent>.rightSide>.contentTotal>.content>.count>span{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.SideContent>.rightSide>.contentTotal>.content>.count>div {
+    background-color: white ;
+    padding: 5px ;
+    border: 0.4px solid black ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.count>span>p{
+    margin: 0 0 0 5px  ; 
+}
+.SideContent>.rightSide>.contentTotal>.content>div>em{
+    font-weight: 900;
+}
+.SideContent>.rightSide>.contentTotal>.content>div:nth-child(3){
+    margin-bottom: 30px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.name{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.SideContent>.rightSide>.contentTotal>.content>.price{
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    font-size: 20px ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.price>p{
+    margin: 0 ; 
+    font-weight: 900;
+    color: orange ;
+}
+.SideContent>.rightSide>.contentTotal>.content>.price>del{
+    margin-left: 30px ;
+    opacity: 0.4;
+}
+.SideContent>.leftSide{
+    display: flex ;
+    justify-content: center ;
+    align-self: flex-start;
+    flex-direction: column;
+}
+.SideContent>.leftSide>.policy{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 40px ;
+}
+.SideContent>.leftSide>.policy>.header{
+    margin: 0 ; 
+    padding: 5px 0 5px 0 ; 
+    text-align: center;
+}
+.SideContent>.leftSide>.policy>.data{
+    width: 90%;
+    display: flex ;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5% ;
+}
+.SideContent>.leftSide>.policy>.data>img{
+    width: 50px ;
+    height: auto;
+}
+.SideContent>.leftSide>.policy>.data{
+    margin-top: 10px ;
+}
+.SideContent>.leftSide>.policy>.data:nth-child(8){
+    margin-bottom: 20px ;
+}
+.SideContent>.leftSide>.policy>.data>.detail>div{
+    margin-left: 20px ;
+}
+.SideContent>.leftSide>.policy>.data>.detail>h6{
+    margin: 0 ; padding: 0 ; 
+    text-align:start;
+    margin-left: 20px ;
+}
+.SideContent>.leftSide>.policy>.data>.detail>.price{
+    color: rgba(236,100,42,255); 
+    font-weight: 900;
+}
+.SideContent>.leftSide>.policy>hr{
+    width: 90% ;
+    margin-left: 5%;
+}

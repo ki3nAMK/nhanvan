@@ -1,49 +1,49 @@
-.header {
+.Header {
     margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: center ;
     align-self: center;
 }
-.header>.wrapper{
+.Header>.wrapper{
     width: 80%;
     display: flex ;
     justify-content: space-around;
     align-items: center ;
 }
-.header>.wrapper>.searchBar{
+.Header>.wrapper>.searchBar{
     width: 50%;
     display: flex;
     justify-content: center ;
     align-items: center;
     flex-direction: column;
 }
-.header>.wrapper>.searchBar>.suggest{
+.Header>.wrapper>.searchBar>.suggest{
     margin-top: 10px ;
     width: 100%;
 }
-.header>.wrapper>.searchBar>.suggest>span{
+.Header>.wrapper>.searchBar>.suggest>span{
     padding-right: 10px ;
     position: relative;
     color: rgb(151, 151, 253) ;
 }
-.header>.wrapper>.searchBar>.suggest>span::after{
+.Header>.wrapper>.searchBar>.suggest>span::after{
     content: "";
     height: 3px;
     width: 2px ;
     border: 1px solid rgb(151, 151, 253);
     margin-left: 10px ;
 }
-.header>.wrapper>.searchBar>.search{
+.Header>.wrapper>.searchBar>.search{
     width: 100%;
     display: flex;
 }
-.header>.wrapper>.searchBar>.search>input{
+.Header>.wrapper>.searchBar>.search>input{
     width: 90%;
     padding: 10px ;
     border: 1px solid red ;
 }
-.header>.wrapper>.searchBar>.search>.icon{
+.Header>.wrapper>.searchBar>.search>.icon{
     background-color: red ;
     width: 9% ;
     display: flex ;
@@ -51,10 +51,10 @@
     align-items: center;
     border-radius: 0 5px 5px 0 ;
 }
-.header>.wrapper>.searchBar>.search>.icon>svg{
+.Header>.wrapper>.searchBar>.search>.icon>svg{
     fill: white ;
 }
-.header>.wrapper>.cart,.user{
+.Header>.wrapper>.cart,.user{
     display: flex ;
     justify-content: center ;
     align-self: center ;
