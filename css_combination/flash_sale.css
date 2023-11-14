@@ -87,7 +87,7 @@
 .flash_sale>.table>.data>.dataList>span>.price>del{
     opacity: 0.4;
 }
-.flash_sale>.table>.data>.dataList>span>p{
+.flash_sale>.table>.data>.dataList>span>a{
     font-size: 13px;
 }
 .flash_sale>.table>.data>.dataList>span>.timer{
