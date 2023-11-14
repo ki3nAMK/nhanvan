@@ -72,6 +72,7 @@
     justify-content: space-between ;
     align-items: center;
     margin-left: 5%;
+    margin-top: 40px ;
 }
 .SideContent>.rightSide>.comment>hr,.listComment{
     width: 90%;
@@ -99,8 +100,8 @@
 }
 .SideContent>.rightSide>.productDetail>.content>.header {
     width: 100% ;
-    text-align: start ;
-    margin: 0 0 20px 0 ;
+    text-align: center ;
+    margin: 20px 0 20px 0 ;
     font-size: 20px ;
     font-weight: 700;
 }
